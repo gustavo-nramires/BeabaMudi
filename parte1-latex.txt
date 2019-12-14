@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{verse}
+
+
+\usepackage{ifpdf}
+\ifpdf
+	\pdfpageheight = 8 in
+	\pdfpagewidth = 6 in
+\else
+	\special{papersize=6in,8in}
+\fi
+
+%\usepackage{showframe}
+
+%\usepackage[cm]{fullpage}
+
+%\usepackage[pass,top=10cm, bottom=0in, left=0in, right=0in]{geometry}
+
+\addtolength{\hoffset}{-1.4 in}
+\addtolength{\voffset}{-1.2 in}
+\addtolength{\textheight}{1 in}
+
+\newcommand{\attrib}[1]{%
+\nopagebreak{\raggedleft\Huge #1\par}}
+\renewcommand{\poemtitlefont}{\normalfont\Huge\itshape\centering}
+
+\begin{document}
+
+\begin{Huge}
+
+\poemtitle{

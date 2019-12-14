@@ -1,0 +1,4 @@
+}
+%\settowidth{\versewidth}{30em}
+\begin{verse}[13em]
+\medskip
